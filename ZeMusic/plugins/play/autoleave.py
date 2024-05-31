@@ -8,7 +8,7 @@ from ZeMusic.utils.database import (get_client, is_active_chat, is_autoend)
 from pyrogram.enums import ChatType
 
 async def auto_leave():
-    if config.AUTO_LEAVING_ASSISTANT == str(True):
+    if config.AUTO_LEAVING_ASSISTANT == str(false):
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
