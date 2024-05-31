@@ -69,8 +69,8 @@ async def song_downloader(client, message: Message):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
+                                InlineKeyboardButton(text="👍", url=f"https://t.me/eo_u7"),
+            InlineKeyboardButton(text="👎", url=f"https://t.me/eo_u1"),
                 ],
 
             ]
